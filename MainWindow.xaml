@@ -1,0 +1,20 @@
+﻿<Window x:Class="Markdown.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Markdown"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="72" Margin="0,0,-0.4,0" VerticalAlignment="Top" Width="794" Background="#FEA9AB">
+            <Label Content="Материалы" HorizontalAlignment="Left" Margin="318,10,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Segoe Print" FontWeight="Bold"/>
+            <Image Margin="0,0,722,0" Source="Черновик.ico" Stretch="Fill"/>
+        </Grid>
+        <TextBox x:Name="TextBixPoisk" HorizontalAlignment="Left" Height="43" Margin="24,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="259" FontSize="18" FontFamily="Segoe Print"/>
+        <ComboBox x:Name="ComboBoxSort" HorizontalAlignment="Left" Margin="301,77,0,0" VerticalAlignment="Top" Width="191" Height="43" FontSize="18" FontFamily="Segoe Print"/>
+        <ComboBox x:Name="ComboBoxFiltr" HorizontalAlignment="Left" Margin="538,77,0,0" VerticalAlignment="Top" Width="191" Height="43" FontFamily="Segoe Print" FontSize="18"/>
+        <DataGrid x:Name="DataGridMaterial" HorizontalAlignment="Left" Height="217" Margin="10,141,0,0" VerticalAlignment="Top" Width="774" FontSize="16" FontFamily="Segoe Print"/>
+
+    </Grid>
+</Window>
